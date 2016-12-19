@@ -1,0 +1,12 @@
+{
+    "name": "archframework/basic",
+    "description": "Basic project starting point using arch framework.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Adrian Trainor",
+            "email": "adriantrainor.developer@gmail.com"
+        }
+    ],
+    "require": {}
+}
