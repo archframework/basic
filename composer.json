@@ -1,12 +1,23 @@
 {
-    "name": "archframework/basic",
-    "description": "Basic project starting point using arch framework.",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Adrian Trainor",
-            "email": "adriantrainor.developer@gmail.com"
-        }
+  "name": "archframework/basic",
+  "description": "Basic project starting point using arch framework.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adrian Trainor",
+      "email": "adriantrainor.developer@gmail.com"
+    }
+  ],
+  "require": {
+    "archframework/framework": "dev-development"
+  },
+  "autoload": {
+    "classmap": [
+      "config/database"
     ],
-    "require": {}
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
 }
